@@ -26,9 +26,9 @@ class Config(object):
 
     BOT_TOKEN = os.environ.get(
 
-        "BOT_TOKEN", "bot token")
+        "BOT_TOKEN", "6511699844:AAFEF1kACN7F9aaIB7HiuJ6ETk9LceXji30")
 
-    OWNER_ID = int(os.environ.get("OWNER_ID", "owener id"))
+    OWNER_ID = int(os.environ.get("OWNER_ID", "5702180952"))
 
     WEB_SERVER = is_enabled(os.environ.get("WEB_SERVER", "True"), True)
 
@@ -36,7 +36,7 @@ class Config(object):
 
         "CHAT_ID", "Chat id").split()]
 
-    SESSION_STRING = os.environ.get("SESSION_STRING", "string account")
+    SESSION_STRING = os.environ.get("SESSION_STRING", "BQEOqKoAD9v3tANx-2GzCt0dGrXzOxtcc4eml2ecbFfcGtCu7r_WKkkUn4nwJXqG0aKalXSHnHoxQSBL0y3WBkk78pOKoBbe80x156Js7KIAAdl6yB0OMyRVj-2R-x8ZUkQvFCtCXolWV_AOvvgKG6NV7fwo23_OAONRBhSWkiRZzyVHBSMlmN79aFkVKxOC054sFZYuTVB90Z4jfy4mYBhU9kS2Av5bjvrHXH0b8OtwTClGgUE96dPQGSMWOf0ok73pq62l1_VYy9J5NzKNj5FygyX4Np46zG2kIbfE_RQ-cEmNY7K01jLHUH_ZiUzU7mAh7oZteKfogXLjmHoQ1txp5a8rgQAAAAFT4GBYAA")
 
     MONGO_DB_URI = os.environ.get("MONGO_DB_URI", "mongodb+srv://baba:baba@cluster0.etssakc.mongodb.net/?retryWrites=true&w=majority")
 

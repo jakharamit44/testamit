@@ -20,9 +20,9 @@ def is_enabled(value, default):
 
 class Config(object):
 
-    API_ID = int(os.environ.get("API_ID", "api id"))
+    API_ID = int(os.environ.get("API_ID", "17737898"))
 
-    API_HASH = os.environ.get("API_HASH", "hash)
+    API_HASH = os.environ.get("API_HASH", "ad762fe0516f367115ba651d929cf429)
 
     BOT_TOKEN = os.environ.get(
 
@@ -38,7 +38,7 @@ class Config(object):
 
     SESSION_STRING = os.environ.get("SESSION_STRING", "string account")
 
-    MONGO_DB_URI = os.environ.get("MONGO_DB_URI", "mongodb")
+    MONGO_DB_URI = os.environ.get("MONGO_DB_URI", "mongodb+srv://baba:baba@cluster0.etssakc.mongodb.net/?retryWrites=true&w=majority")
 
     MONGO_DB_NAME = os.environ.get("MONGO_DB_NAME", "telegram")
 
@@ -48,4 +48,4 @@ class Script(object):
 
     ACCEPT_MESSAGE = os.environ.get(
 
-        "ACCEPT_MESSAGE", "You have been accepted to the channel. By @Developerr_Bots")
+        "ACCEPT_MESSAGE", "You have been accepted to the channel. By @")
